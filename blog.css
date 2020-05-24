@@ -1,0 +1,21 @@
+body{
+	border: 20px solid #bdbabf;
+}
+
+div{
+	padding-left: 2%;
+	padding-top: 2%;
+	color:#3c95de;
+	word-spacing: 3px;
+}
+
+h1{
+	padding-left: 2%;
+	color:#0c2e4a;
+	word-spacing: 3px;
+}
+
+p{
+	padding-left: 2%;
+}
+
