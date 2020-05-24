@@ -1,0 +1,53 @@
+body{
+	background-color: #232323;
+}
+
+
+.jumbotron{
+	background-image: cover !important;
+	background-repeat: no-repeat;
+  	background-position: center;
+  	color: white;
+  	text-shadow:2px 2px #3d403e;
+}
+
+
+#title{
+	color: white;
+  	text-shadow:2px 2px #3d403e;
+  	text-align: center;
+}
+
+.foo{
+	color: white;
+}
+
+.memberships{
+	color: white;
+  	text-shadow:2px 2px #3d403e;
+  	text-align: center;
+  	margin-top: 30%;
+}
+
+#newline{
+	background-color: white;
+	height: 500px;
+	padding-top: 50px;
+}
+
+#ourform{
+	margin: 0 auto;
+	padding-top: 2%;
+	padding-left: 110px;
+	padding-right: 110px;
+	width: 600px;
+	border: 1px solid gray;
+	padding-bottom: 30px;
+	border-radius: 15px;
+
+}
+
+
+.card {
+	height: 100px !important;
+}
