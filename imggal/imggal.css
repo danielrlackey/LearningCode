@@ -1,0 +1,47 @@
+body {
+	padding-top: 70px;
+	background-color: #5f6968;
+}
+
+.jumbotron {
+	background: #748996;
+}
+
+.navbar-inverse {
+	background: #15242e;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+.newNail{
+	height: 300px;
+	border: 1px solid #ddd; 
+	border-radius: 4px;  
+	padding: 5px;
+	width: 360px;
+	background-color: white;
+	margin-bottom: 7%;
+	transition: width 0.5s;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.newNail:hover{
+	height: 320px;
+	width: 380px;
+	
+}
+
+.sumPadding{
+	padding: 2px;
+
+}
+
+
+
