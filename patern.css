@@ -1,0 +1,8 @@
+.jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1505985518385-c4e867fcaf82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+    background-size: cover;
+}
+
+btn {
+    margin: 2%;
+}
