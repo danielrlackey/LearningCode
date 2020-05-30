@@ -1,0 +1,21 @@
+body {
+    background: #f0c5dc;
+}
+
+.navbar-brand {
+    color: red !important;
+}
+
+.block{
+    display: inline-block;
+}
+
+
+.moveUp{
+    margin-top: -100px;
+    padding-top: 0;
+}
+
+.imgStyle{
+    width: 50vw;
+}
