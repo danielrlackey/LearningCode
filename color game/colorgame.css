@@ -19,6 +19,16 @@ h1 {
     color: white;
 }
 
-span {
-    color: white;
+#stripe {
+    background-color: azure;
+    height: 30px;
+    text-align: center;
+}
+
+#message {
+    color: black;
+}
+
+.selected {
+    background-color: blue;
 }
