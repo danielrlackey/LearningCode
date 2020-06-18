@@ -1,4 +1,5 @@
-let colors = generateRandomColors(6);
+let numSquares = 6;
+let colors = generateRandomColors(numSquares);
 let h1 = document.querySelector("h1");
 let squares = document.querySelectorAll(".square");
 let pickedColor = pickColor();
@@ -27,38 +28,47 @@ for(let i = 0; i < squares.length; i++){
 }
 
 reset.addEventListener("click", function(){
-    colors = generateRandomColors(6);
+    colors = generateRandomColors(numSquares);
     pickedColor = pickColor();
+    message.textContent = "";
     colorDisplay.textContent = pickedColor;
     for(let i = 0; i < squares.length; i++){
     squares[i].style.background = colors[i]
     reset.textContent = "New Colors";
     }
-    h1.style.background = "#232323"
+    h1.style.background = "steelblue"
 })
 
 easyBtn.addEventListener("click", function(){
     easyBtn.classList.add("selected");
     hardBtn.classList.remove("selected");
-    colors = generateRandomColors(3);
+    numSquares = 3;
+    colors = generateRandomColors(numSquares);
     pickedColor = pickColor();
-    colorDisplay.textContent = pickedColor
+    colorDisplay.textContent = pickedColor;
     for(let i = 0; i < squares.length; i++ ){
         if(colors[i]){
             squares[i].style.background = colors[i];
         } else {
             squares[i].style.display = "none";
         }
+        h1.style.background = "steelblue";
     }
 });
 
 hardBtn.addEventListener("click", function(){
     easyBtn.classList.remove("selected");
     hardBtn.classList.add("selected");
-    colors = generateRandomColors(6);
-//    working on hard button!
-// think its similar to easybtn
-// gonna try to figure out on my own
+    numsquares = 6
+    colors = generateRandomColors(numSquares);
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    for(let i = 0; i < squares.length; i++){
+            squares[i].style.background = colors[i];
+            squares[i].style.display = "block"
+        
+    }
+        h1.style.background = "steelblue";
 });
 
 function changeColors(color){
