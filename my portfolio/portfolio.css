@@ -1,7 +1,51 @@
-body {
-    background: rgb(90, 86, 86);
+body{
+    background-color: #686a6d;
+
 }
 
-h1 {
+.header {
     text-align: center;
+    color: rgb(231, 226, 226);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+
+}
+.git{
+    font-size: 40px;
+}
+
+.text {
+    text-align: center;
+    color: rgb(231, 226, 226);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+}
+    
+
+#name {
+    border-bottom: 1px solid #5e6063;
+}
+
+.jumbotron {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 0;
+}
+
+.navbar {
+    height: 40px;
+}
+
+
+#sub{
+    text-align: center;
+    color: rgb(231, 226, 226);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
 }
